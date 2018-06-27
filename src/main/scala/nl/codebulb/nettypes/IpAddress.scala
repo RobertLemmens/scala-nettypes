@@ -33,7 +33,6 @@ final class Ipv4Address(protected val bytes: Array[Byte]) extends IpAddress {
   override def toString: String =
     s"${bytes(0) & 0xff}.${bytes(1) & 0xff}.${bytes(2) & 0xff}.${bytes(3) & 0xff}"
 
-
 }
 
 object Ipv4Address {
